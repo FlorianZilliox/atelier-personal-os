@@ -1,8 +1,13 @@
-# Agent « Plan de semaine »
+# Plan de semaine : du workflow à l'agent
 
-> Créez un **agent** sur Playground (pas un « skill », qui n'est qu'un prompt). Mode avancé, modèle Tera.
-> Cochez : workspace **Contexte**, workspace **Expertise**, **Outlook (calendrier)**, **SharePoint / OneDrive**. Rien d'autre.
-> Copiez le texte ci-dessous dans les instructions de l'agent et remplacez les crochets.
+## Étape 4 : le faire une fois, à la main
+1. Nouvelle conversation, mode avancé, modèle Tera.
+2. Cochez : workspace **Contexte**, workspace **Expertise**, **Outlook** (calendrier et mails), **SharePoint / OneDrive** si vos comptes rendus y sont.
+3. Collez le texte ci-dessous, remplacez les crochets, envoyez.
+4. Lisez le livrable. Ce qui ne va pas, dites-le-lui dans la conversation (« le daily n'est jamais important », « plus court »), jusqu'à obtenir le plan que vous voulez.
+
+## Étape 5 : en faire un agent
+Créez un **agent** (en haut à droite). Collez le même texte **avec vos corrections ajoutées en règles**. Cochez les mêmes outils. C'est votre recette, rejouable chaque semaine.
 
 ---
 
@@ -12,7 +17,7 @@ Avant tout, lis `qui-je-suis` et `mes-regles` dans le workspace Contexte, et app
 
 **1. Collecte**
 - Mon agenda Outlook de la semaine [prochaine], du lundi au vendredi, sans le daily.
-- Les comptes rendus des réunions de la semaine passée, dans [dossier SharePoint ou OneDrive] : décisions, actions qu'on m'a confiées, échéances annoncées.
+- Les comptes rendus des réunions de la semaine passée : les mails de [Seedext] reçus depuis lundi dernier, et [le dossier SharePoint ou OneDrive où je range mes comptes rendus]. Retiens les décisions, les actions qu'on m'a confiées, les échéances annoncées.
 - Demande-moi en un seul message : « Des tâches ou engagements à ajouter ? Sinon réponds "rien". »
 
 **2. Analyse**
@@ -20,7 +25,7 @@ Une réunion est importante si j'y présente, si c'est une instance de décision
 - une échéance dans les 10 jours sans créneau réservé pour la tenir ;
 - une réunion importante sans temps de préparation avant ;
 - une journée de plus de [5] h de réunion, ou deux réunions en même temps ;
-- une tâche qui traîne depuis 3 semaines ou plus.
+- une action promise dans un compte rendu et qui n'apparaît nulle part dans ma semaine.
 
 **3. Questions** : 5 au maximum, en un seul message, seulement sur ce qu'aucune source ne dit.
 

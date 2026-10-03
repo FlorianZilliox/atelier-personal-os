@@ -20,7 +20,7 @@ Appliquer SOLVE demande de la discipline : passer les étapes dans l'ordre, ne p
 |---|---|
 | **5 min** | Le livrable : dessinez ce que l'agent doit rendre après une interview |
 | **15 min** | Le workflow à la main : faites-le une fois dans une conversation, jusqu'à obtenir le bon livrable et les bonnes questions |
-| **15 min** | L'agent : transformez ce qui a marché en instructions d'agent, relancez dans une nouvelle conversation |
+| **15 min** | L'agent : remplissez le **squelette d'agent** avec ce qui a marché, créez l'agent, relancez-le |
 | **10 min** | La version de lundi : corrigez une chose, une seule |
 
 ## Restitution, 2 minutes

@@ -20,7 +20,7 @@ Lancé avant le daily, il lit le sprint en cours dans Jira et lève toutes les a
 |---|---|
 | **5 min** | Le livrable : dessinez sur papier l'écran que vous voulez lire avant le daily |
 | **15 min** | Le workflow à la main : faites-le une fois dans une conversation, sur votre vrai sprint, jusqu'à obtenir le bon livrable |
-| **15 min** | L'agent : transformez ce qui a marché en instructions d'agent, relancez dans une nouvelle conversation |
+| **15 min** | L'agent : remplissez le **squelette d'agent** avec ce qui a marché, créez l'agent, relancez-le |
 | **10 min** | La version de lundi : corrigez une chose, une seule |
 
 ## Restitution, 2 minutes
